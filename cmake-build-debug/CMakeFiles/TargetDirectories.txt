@@ -1,0 +1,4 @@
+C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/cook.dir
+C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/cook_autogen.dir
