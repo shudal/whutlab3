@@ -5,6 +5,7 @@
 #include "GameWidget.h"
 #include <src/config/Config.h>
 #include <src/utility/RandInt.h>
+#include <src/ui/widget/MsgWidget.h>
 #include <thread>
 GameWidget::GameWidget() {
 
@@ -29,11 +30,18 @@ void GameWidget::setupUI() {
   auto vLayout = new QVBoxLayout();
   gw->setLayout(vLayout);
 
+  std::string btn_style = "QPushButton {background-color: rgb(58,64,85); color:white; font-size:28px; border-radius:2px;} QPushButton:hover { background-color: rgb(82,89,111);}";
+
   auto hLayout1 = new QHBoxLayout();
   timeLabel = new QLabel("时间");
   hLayout1->addWidget(timeLabel);
   auto helpBtn = new QPushButton("帮助");
   hLayout1->addWidget(helpBtn);
+  auto setBtn = new QPushButton("设置");
+  hLayout1->addWidget(setBtn);
+
+  helpBtn->setStyleSheet(btn_style.c_str());
+  setBtn->setStyleSheet(btn_style.c_str());
 
   auto hLayout2 = new QHBoxLayout();
   gridLayout = new QGridLayout();
@@ -59,8 +67,22 @@ void GameWidget::setupUI() {
       stopGameBtn->setText("继续游戏");
     }
   });
+  auto tipBtn = new QPushButton("提示");
+  auto reBtn = new QPushButton("重排");
+  connect(reBtn, &QPushButton::released, [&]()->void {
+    setRandomMap();
+    applyMap();
+  });
+
+  stopGameBtn->setStyleSheet(btn_style.c_str());
+  startGameBtn->setStyleSheet(btn_style.c_str());
+  tipBtn->setStyleSheet(btn_style.c_str());
+  reBtn->setStyleSheet(btn_style.c_str());
+
   vLayout2->addWidget(startGameBtn);
   vLayout2->addWidget(stopGameBtn);
+  vLayout2->addWidget(tipBtn);
+  vLayout2->addWidget(reBtn);
   hLayout2->addLayout(vLayout2);
 
   vLayout->addLayout(hLayout2);
@@ -217,10 +239,11 @@ void GameWidget::timeCount() {
             timeLabel->setText(s.c_str());
           });
         } else {
+          game_status = Config::Get()->GAME_STATUS_ENDED;
           emit funcSignal([&]()->void {
             std::string s = "游戏结束";
-            game_status = Config::Get()->GAME_STATUS_ENDED;
             timeLabel->setText(s.c_str());
+            auto mw = new MsgWidget("游戏结束"); 
           });
         }
       } else {

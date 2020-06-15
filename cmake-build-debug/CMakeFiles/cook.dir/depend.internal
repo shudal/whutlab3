@@ -3,9 +3,11 @@
 
 CMakeFiles/cook.dir/cook_autogen/mocs_compilation.cpp.obj
  ../src/ui/widget/GameWidget.h
+ ../src/ui/widget/MsgWidget.h
  ../src/ui/window/MainWindow.h
  ../src/utility/ConnectGameCore.h
  C:/Users/perci/CLionProjects/cook/cmake-build-debug/cook_autogen/HNHWGE2A5F/moc_GameWidget.cpp
+ C:/Users/perci/CLionProjects/cook/cmake-build-debug/cook_autogen/HNHWGE2A5F/moc_MsgWidget.cpp
  C:/Users/perci/CLionProjects/cook/cmake-build-debug/cook_autogen/WS2RLJ6GGL/moc_MainWindow.cpp
  C:/Users/perci/CLionProjects/cook/cmake-build-debug/cook_autogen/mocs_compilation.cpp
  D:/install/mingwsecond/5.12.8/mingw73_64/include/QtANGLE/GLES2/gl2.h
@@ -950,6 +952,7 @@ CMakeFiles/cook.dir/main.cpp.obj
  D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qwizard.h
 CMakeFiles/cook.dir/src/ui/widget/GameWidget.cpp.obj
  ../src/config/Config.h
+ ../src/ui/widget/MsgWidget.h
  ../src/utility/ConnectGameCore.h
  ../src/utility/RandInt.h
  C:/Users/perci/CLionProjects/cook/src/ui/widget/GameWidget.cpp
@@ -1419,6 +1422,125 @@ CMakeFiles/cook.dir/src/ui/widget/GameWidget.cpp.obj
  D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qwidget.h
  D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qwidgetaction.h
  D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qwizard.h
+CMakeFiles/cook.dir/src/ui/widget/MsgWidget.cpp.obj
+ ../src/config/Config.h
+ C:/Users/perci/CLionProjects/cook/src/ui/widget/MsgWidget.cpp
+ C:/Users/perci/CLionProjects/cook/src/ui/widget/MsgWidget.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/QObject
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/Qt
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qalgorithms.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qarraydata.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qatomic.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qatomic_bootstrap.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qatomic_cxx11.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qatomic_msvc.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qbasicatomic.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qbytearray.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qbytearraylist.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qchar.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qcompilerdetection.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qconfig-bootstrapped.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qconfig.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qcontainerfwd.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qcontiguouscache.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qcoreevent.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qdatastream.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qdebug.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qfile.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qfiledevice.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qflags.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qgenericatomic.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qglobal.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qglobalstatic.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qhash.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qhashfunctions.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qiodevice.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qiterator.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qline.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qlist.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qlocale.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qlogging.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qmap.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qmargins.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qmetatype.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qmutex.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qnamespace.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qnumeric.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qobject.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qobject_impl.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qobjectdefs.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qobjectdefs_impl.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qpair.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qpoint.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qprocessordetection.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qrect.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qrefcount.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qregexp.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qscopedpointer.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qset.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qshareddata.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qsharedpointer.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qsharedpointer_impl.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qsize.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qstring.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qstringalgorithms.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qstringbuilder.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qstringlist.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qstringliteral.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qstringmatcher.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qstringview.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qsysinfo.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qsystemdetection.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qtcore-config.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qtextstream.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qtypeinfo.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qurl.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qurlquery.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qvariant.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qvarlengtharray.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qvector.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtCore/qversiontagging.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/QIcon
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qbrush.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qcolor.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qcursor.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qevent.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qfont.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qfontinfo.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qfontmetrics.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qicon.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qimage.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qkeysequence.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qmatrix.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qpaintdevice.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qpainterpath.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qpalette.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qpixelformat.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qpixmap.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qpolygon.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qregion.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qrgb.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qrgba64.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qtgui-config.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qtguiglobal.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qtouchdevice.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qtransform.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qvector2d.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qwindowdefs.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtGui/qwindowdefs_win.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/QLabel
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/QVBoxLayout
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/QWidget
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qboxlayout.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qframe.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qgridlayout.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qlabel.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qlayout.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qlayoutitem.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qsizepolicy.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qtwidgets-config.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qtwidgetsglobal.h
+ D:/install/mingwsecond/5.12.8/mingw73_64/include/QtWidgets/qwidget.h
 CMakeFiles/cook.dir/src/ui/window/MainWindow.cpp.obj
  ../src/config/Config.h
  ../src/ui/widget/GameWidget.h

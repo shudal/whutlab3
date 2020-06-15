@@ -10,3 +10,6 @@ C:/Users/perci/CLionProjects/cook/src/ui/widget/GameWidget.h
 C:/Users/perci/CLionProjects/cook/src/utility/RandInt.h
 C:/Users/perci/CLionProjects/cook/src/ui/widget/GameWidget.cpp
 C:/Users/perci/CLionProjects/cook/src/utility/ConnectGameCore.cpp
+C:/Users/perci/CLionProjects/cook/src/ui/widget/MsgWidget.h
+ mmc:Q_OBJECT
+C:/Users/perci/CLionProjects/cook/src/ui/widget/MsgWidget.cpp

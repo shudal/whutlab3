@@ -49,6 +49,13 @@ void ConnectGameCore::dfs(std::vector<std::vector<int>> & v, std::vector<std::pa
       success_path = path;
       ok = true;
     }
+
+    path.pop_back();
+    return;
+  }
+
+  if (!validPath(path)) {
+    path.pop_back();
     return;
   }
 
@@ -90,7 +97,7 @@ bool ConnectGameCore::validPath(std::vector<std::pair<int,int>> & path) {
     if (dir != last_dir) {
       dir_change++;
       // 最多转两个弯
-      if (dir_change > 3) {
+      if (dir_change > 2) {
         return false;
       }
     }

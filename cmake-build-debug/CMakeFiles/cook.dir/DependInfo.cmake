@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/perci/CLionProjects/cook/cmake-build-debug/cook_autogen/mocs_compilation.cpp" "C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/cook.dir/cook_autogen/mocs_compilation.cpp.obj"
   "C:/Users/perci/CLionProjects/cook/main.cpp" "C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/cook.dir/main.cpp.obj"
   "C:/Users/perci/CLionProjects/cook/src/ui/widget/GameWidget.cpp" "C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/cook.dir/src/ui/widget/GameWidget.cpp.obj"
+  "C:/Users/perci/CLionProjects/cook/src/ui/widget/MsgWidget.cpp" "C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/cook.dir/src/ui/widget/MsgWidget.cpp.obj"
   "C:/Users/perci/CLionProjects/cook/src/ui/window/MainWindow.cpp" "C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/cook.dir/src/ui/window/MainWindow.cpp.obj"
   "C:/Users/perci/CLionProjects/cook/src/utility/ConnectGameCore.cpp" "C:/Users/perci/CLionProjects/cook/cmake-build-debug/CMakeFiles/cook.dir/src/utility/ConnectGameCore.cpp.obj"
   )

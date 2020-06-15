@@ -216,6 +216,33 @@ src/ui/widget/GameWidget.cpp.s:
 	$(MAKE) -f CMakeFiles\cook.dir\build.make CMakeFiles/cook.dir/src/ui/widget/GameWidget.cpp.s
 .PHONY : src/ui/widget/GameWidget.cpp.s
 
+src/ui/widget/MsgWidget.obj: src/ui/widget/MsgWidget.cpp.obj
+
+.PHONY : src/ui/widget/MsgWidget.obj
+
+# target to build an object file
+src/ui/widget/MsgWidget.cpp.obj:
+	$(MAKE) -f CMakeFiles\cook.dir\build.make CMakeFiles/cook.dir/src/ui/widget/MsgWidget.cpp.obj
+.PHONY : src/ui/widget/MsgWidget.cpp.obj
+
+src/ui/widget/MsgWidget.i: src/ui/widget/MsgWidget.cpp.i
+
+.PHONY : src/ui/widget/MsgWidget.i
+
+# target to preprocess a source file
+src/ui/widget/MsgWidget.cpp.i:
+	$(MAKE) -f CMakeFiles\cook.dir\build.make CMakeFiles/cook.dir/src/ui/widget/MsgWidget.cpp.i
+.PHONY : src/ui/widget/MsgWidget.cpp.i
+
+src/ui/widget/MsgWidget.s: src/ui/widget/MsgWidget.cpp.s
+
+.PHONY : src/ui/widget/MsgWidget.s
+
+# target to generate assembly for a file
+src/ui/widget/MsgWidget.cpp.s:
+	$(MAKE) -f CMakeFiles\cook.dir\build.make CMakeFiles/cook.dir/src/ui/widget/MsgWidget.cpp.s
+.PHONY : src/ui/widget/MsgWidget.cpp.s
+
 src/ui/window/MainWindow.obj: src/ui/window/MainWindow.cpp.obj
 
 .PHONY : src/ui/window/MainWindow.obj
@@ -289,6 +316,9 @@ help:
 	@echo ... src/ui/widget/GameWidget.obj
 	@echo ... src/ui/widget/GameWidget.i
 	@echo ... src/ui/widget/GameWidget.s
+	@echo ... src/ui/widget/MsgWidget.obj
+	@echo ... src/ui/widget/MsgWidget.i
+	@echo ... src/ui/widget/MsgWidget.s
 	@echo ... src/ui/window/MainWindow.obj
 	@echo ... src/ui/window/MainWindow.i
 	@echo ... src/ui/window/MainWindow.s

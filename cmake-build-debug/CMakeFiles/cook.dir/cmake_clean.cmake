@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cook.dir/cook_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/cook.dir/main.cpp.obj"
   "CMakeFiles/cook.dir/src/ui/widget/GameWidget.cpp.obj"
+  "CMakeFiles/cook.dir/src/ui/widget/MsgWidget.cpp.obj"
   "CMakeFiles/cook.dir/src/ui/window/MainWindow.cpp.obj"
   "CMakeFiles/cook.dir/src/utility/ConnectGameCore.cpp.obj"
   "cook.exe"
