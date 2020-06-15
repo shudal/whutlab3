@@ -25,12 +25,15 @@ class GameWidget : public QObject {
   QLabel* timeLabel;
   QPushButton* stopGameBtn;
   QPushButton* startGameBtn;
+  QPushButton* tipBtn;
   std::vector<std::vector<QPushButton*>> fruits;
   std::vector<std::vector<int>> map_logic;
   std::queue<std::pair<int,int>> clicks;
   int game_status;
   ConnectGameCore core;
   int time_count;
+  std::pair<int,int> tip_from;
+  std::pair<int,int> tip_to;
 
   void setupUI();
   void setRandomMap();
@@ -38,6 +41,7 @@ class GameWidget : public QObject {
   void print(std::string);
   void processClick();
   void timeCount();
+  void avaTest();
 
   signals:
   void funcSignal(std::function<void(void)>);

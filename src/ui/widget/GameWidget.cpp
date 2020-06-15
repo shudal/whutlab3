@@ -67,7 +67,12 @@ void GameWidget::setupUI() {
       stopGameBtn->setText("继续游戏");
     }
   });
-  auto tipBtn = new QPushButton("提示");
+  tipBtn = new QPushButton("提示");
+  connect(tipBtn, &QPushButton::released, [&]()->void {
+    emit funcSignal([&]()->void {
+      avaTest();
+    });
+  });
   auto reBtn = new QPushButton("重排");
   connect(reBtn, &QPushButton::released, [&]()->void {
     setRandomMap();
@@ -253,4 +258,48 @@ void GameWidget::timeCount() {
 
   });
   t.detach();
+}
+void GameWidget::avaTest() {
+  bool ever_ok = false;
+  bool con = true;
+  for (int a = 0; con && a < Config::Get()->ROW_COUNT; a++) {
+    for (int b = 0; con && b < Config::Get()->COL_COUNT; b++) {
+      if (map_logic[a][b] == 0) {
+        continue;
+      }
+      for (int c = 0; con && c < Config::Get()->ROW_COUNT; c++) {
+        for (int d = 0; con && d < Config::Get()->COL_COUNT; d++) {
+          if (map_logic[a][b] != map_logic[c][d]) {
+            continue;
+          }
+          if (a == c && b == d) {
+            continue;
+          }
+          if (core.link(map_logic, {a, b}, {c, d})) {
+            ever_ok = true;
+            tip_from = {a,b};
+            tip_to = {c,d};
+
+            con = false;
+            break;
+          }
+        }
+      }
+    }
+  }
+  if (!ever_ok) {
+    if (game_status == Config::Get()->GAME_STATUS_STARTED) {
+      game_status = Config::Get()->GAME_STATUS_ENDED;
+      emit funcSignal([&]() -> void {
+        std::string s = "游戏成功";
+        timeLabel->setText(s.c_str());
+        auto mw = new MsgWidget(s);
+      });
+    }
+  } else {
+    emit funcSignal([&]() -> void {
+      clicks.push(tip_from);
+      clicks.push(tip_to);
+    });
+  }
 }
